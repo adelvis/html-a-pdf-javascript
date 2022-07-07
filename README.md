@@ -1,9 +1,18 @@
 # html-a-pdf-javascript
 Convertir HTML a PDF utilizando una librería de Javascript html2pdf.
 
-# QUÉ ES HTML2PDF
+# Que es HTML2PDF.js
 
-HTML2PDF es un conversor de HTML a PDF escrito en PHP5 (utilizando TCPDF).
-Permite la conversión de HTML 4.01 válido en formato PDF, y se distribuye bajo licencia OSL.
+html2pdf.js convierte cualquier página web o elemento en un PDF imprimible completamente del lado del cliente usando html2canvas y jsPDF.
 
-Esta biblioteca se ha hecho para ayudar en la creación de PDF, no para convertir directamente una página HTML.
+Para incluir su uso en el Html se descarga directamente a la carpeta de su proyecto
+
+<script src="html2pdf.bundle.min.js"></script>
+
+## Uso
+Una vez instalado, html2pdf.js está listo para usar. El siguiente comando generará un PDF #element-to-printy pedirá al usuario que guarde el resultado:
+
+var element = document.getElementById('element-to-print');
+html2pdf(element);
+
+Para consultar mas detalles: https://ekoopmans.github.io/html2pdf.js/ 
